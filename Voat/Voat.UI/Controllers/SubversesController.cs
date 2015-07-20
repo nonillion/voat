@@ -1402,7 +1402,6 @@ namespace Voat.Controllers
             var subverseAdministration =
                 _db.SubverseAdmins
                 .Where(n => n.SubverseName.Equals(subverseName, StringComparison.OrdinalIgnoreCase))
-                .Take(10)
                 .ToList()
                 .OrderBy(s => s.Username);
 
