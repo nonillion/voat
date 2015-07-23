@@ -74,6 +74,9 @@ namespace Voat.Models.ViewModels
 
         [Display(Name = "Open links in new tab")]
         public bool OpenLinksInNewTab { get; set; }
+        
+        [Display(Name = "Open comments in new tab")]
+        public bool OpenCommentsInNewTab { get; set; }
 
         [Display(Name = "Display NSFW content")]
         public bool Enable_adult_content { get; set; }
